@@ -9,8 +9,15 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>Repository Addon</summary>
 		<description>Add-ons kodi recriados por Cleiton Leonel Creton</description>
-		<disclaimer></disclaimer>
+		<disclaimer>[B][COLOR white]Salientamos que este repositório é apenas um AGREGADOR de links e assim como o Google.com, apenas agrega e organiza links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</disclaimer>
 		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
 	</extension>
 </addon>
 
