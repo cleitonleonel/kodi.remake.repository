@@ -30,7 +30,7 @@
 
 <addon id="plugin.video.play"
        name="[B][COLOR red]ADDON TEST[/COLOR][/B]"
-       version="4.0"
+       version="1.0.0"
        provider-name="[B][COLOR yellow]Cleiton Leonel Creton[/COLOR][/B]">
 
   <requires>
@@ -51,7 +51,7 @@
     <summary lang="en">[B][COLOR white]OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]</summary>
     <description lang="en">[B][COLOR white]ADDON TEST.[/COLOR][/B]</description>
     <news>
-[B][COLOR chocolate]v4.0 - CORREÇÕES DE SEGURANÇA, OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]
+[B][COLOR chocolate]v1.0.0 - CORREÇÕES DE SEGURANÇA, OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]
 </news>
     <platform>all</platform>
 	<assets>
