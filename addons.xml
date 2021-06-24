@@ -28,6 +28,70 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.play"
+       name="[B][COLOR red]ADDON TEST[/COLOR][/B]"
+       version="4.0"
+       provider-name="[B][COLOR yellow]Cleiton Leonel Creton[/COLOR][/B]">
+
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.6.2"/>
+    <import addon="script.module.requests" version="2.22.0"/>
+    <import addon="script.module.urllib3" version="1.22"/>
+    <import addon="script.module.chardet" version="3.0.4"/>
+    <import addon="script.module.idna" version="2.6"/>
+    <import addon="script.module.certifi" version="2017.07.27.1"/>
+    <import addon="script.module.html5lib" version="0.999.0"/>
+    <import addon="script.module.rcresolver" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR white]OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]</summary>
+    <description lang="en">[B][COLOR white]ADDON TEST.[/COLOR][/B]</description>
+    <news>
+[B][COLOR chocolate]v4.0 - CORREÇÕES DE SEGURANÇA, OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]
+</news>
+    <platform>all</platform>
+	<assets>
+<icon>icon.png</icon>
+<fanart>fanart.jpg</fanart>
+<screenshot></screenshot>
+</assets>
+  </extension>
+</addon>
+
+<addon id="script.module.rcresolver"
+       name="rcresolver"
+       version="1.0.0"
+       provider-name="Cleiton Leonel Creton">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.6.2"/>
+    <import addon="script.module.urllib3" version="1.22"/>
+    <import addon="script.module.chardet" version="3.0.4"/>
+    <import addon="script.module.idna" version="2.6"/>
+    <import addon="script.module.certifi" version="2017.07.27.1"/>
+    <import addon="script.module.html5lib" version="0.999.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="pt_BR">Python Resolver links stream</summary>
+    <description lang="pt_BR">Extrair e resolver links do site redecanais...</description>
+    <platform>all</platform>
+    <language>pt_BR</language>
+    <license>Apache2</license>
+    <forum></forum>
+    <website>http://semsite.com</website>
+    <source>https://github.com/cleitonleonel/script.module.rcresolver</source>
+    <email>cleiton.leonel@gmail.com</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="kodi.remake.repository" name="Kodi Remake Repository" version="1.0.0" provider-name="Cleiton leonel creton">
 	<extension point="xbmc.addon.repository" name="Kodi Remake Repository">
 		<info compressed="false">https://raw.github.com/cleitonleonel/kodi.remake.repository/master/addons.xml</info>
