@@ -113,7 +113,7 @@
 	</extension>
 </addon>
 
-<addon id="RedeCanais.vip" name="[B][COLOR blue]Rede[/B][/COLOR][B][COLOR black] Canais[/B][/COLOR][B][COLOR red].vip[/B][/COLOR]" version="1.0.0" provider-name="Cleiton Leonel Creton">
+<addon id="RedeCanais.vip" name="[B][COLOR blue]Rede[/B][/COLOR][B][COLOR black] Canais[/B][/COLOR][B][COLOR red].vip[/B][/COLOR]" version="1.0.1" provider-name="Cleiton Leonel Creton">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
 	<import addon="script.module.beautifulsoup4"/>
@@ -128,8 +128,8 @@
     <summary lang="en">Asssistir, Baixar, Livre...</summary>
 	<description lang="en">RedeCanais VIP agora é para todos, e você pode acessá-lo mesmo sem uma Conta VIP, Nos ajude a manter este belo projeto, faça uma doação!</description>
     <disclaimer lang="en">Nos ajude a manter este belo projeto faça uma doação!</disclaimer>
-	<source>https://www.redecanais.cloud</source>
-	<website>https://www.redecanais.cloud</website>
+	<source>https://www.redecanais.re</source>
+	<website>https://www.redecanais.re</website>
 	<assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
